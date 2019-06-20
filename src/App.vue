@@ -1,17 +1,16 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  #app
+    GiphyButton
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GiphyButton from './components/GiphyButton'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    GiphyButton
   }
 }
 </script>
